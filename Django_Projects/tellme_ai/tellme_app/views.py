@@ -1,5 +1,9 @@
-from django.http import HttpResponse
+# from django.http import HttpResponse
 
-# Create your views here.
-def hello(request):
-    return HttpResponse("<h1>Hello, Django!</h1><p>welcome to Tell Me App</p>")
+# # Create your views here.
+# def hello(request):
+#     return HttpResponse("<h1>Hello, Django!</h1><p>welcome to Tell Me App</p>")
+from django.shortcuts import render
+
+def home(request):
+    return render(request, "tellme_app/home.html")
