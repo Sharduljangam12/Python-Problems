@@ -2,7 +2,7 @@
 
 Without using any string methods, try to print the following
 123...n'''
-
+#It took me 36 minutes to solve this problem 
 if __name__ == '__main__':
     n = int(input())
     
