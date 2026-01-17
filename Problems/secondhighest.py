@@ -6,9 +6,18 @@ Input Format
 
 The first line contains n . The second line contains an array A[] of n integers each separated by a space.
 Output Runnerup: Print the runner-up score. input: 5,2,8,4,3,8 output: 5
-'''
 if __name__ == '__main__':
     n = int(input())
     arr = map(int, input().split()) 
-    n = max (arr)
+    n = max(arr)
+    second_max_
     print(n - 1)
+    '''
+if __name__ == '__main__':
+    n = int(input())
+    scores = list(map(int, input().split()))
+
+    unique_scores = list(set(scores))
+    unique_scores.sort()
+
+    print(unique_scores[-2])
